@@ -27,7 +27,7 @@
 - For categorical data where the predictor is numeric and outcome is categorical, finding the optimal cutoff predictor is important to resulting in more accurate outcomes.
   
 #### More Syntax and Language
-factor() encodes a vector of categories. Useful for functions that only understand categorical data.
+- factor() encodes a vector of categories. Useful for functions that only understand categorical data.
 - as.factor() turns numeric objects into factors.
 - numeric() encodes a vector of numbers
 - as.numeric() turns object into numeric value for program to interpret.
