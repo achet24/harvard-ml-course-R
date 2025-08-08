@@ -49,17 +49,17 @@
 - Also known as True Positive Rate (TPR), and recall
 - Equation: TP / (TP+FN)
 
-### Specificity
+#### Specificity
 - Specificity: measures algorithms ability to predict negative outcome when actual outcome is negative.
 - Also known as True Negative Rate (TNR)
 - Equation: TN / (TN+FP)
 
-### Prevalence
+#### Prevalence
 - Prevalence: the amount of positives in the total population.
 - Impacts Specificity/Precision
 - High sensitivity and specificity may not be helpful when prevalence is close to eithrer 0 or 1.
 
-### Precision
+#### Precision
 - Also known as Positive Predictive value (PPV)
 - Precision is higher when prevalence is higher
 - Equation: TP / (TP+FP)
