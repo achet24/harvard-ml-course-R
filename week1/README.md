@@ -35,3 +35,34 @@
 
 ### Challenges I faced ⛰️
 - Understanding the syntax of built in R functions.
+
+## Day 3
+### What I've Learned 📚
+#### ConfusionMatrix
+- ConfusionMatrix: tabulates each combination of prediction & actual value (e.g. true positive (TP), false negative (FN), false positives (FP), true negatives (TN)).
+- From caret package.
+- computes metrics such as sensitiveity and specificity one positve category is defined.
+- Important to calculate sensitivity and specificity to determin how precise algorithm is, rather than depending on overall accuracy of test set.
+  
+#### Sensitivity
+- Sensitivity: measures algorithms ability to predict positive outcome when acutal outcome is positive.
+- Also known as True Positive Rate (TPR), and recall
+- Equation: TP / (TP+FN)
+
+### Specificity
+- Specificity: measures algorithms ability to predict negative outcome when actual outcome is negative.
+- Also known as True Negative Rate (TNR)
+- Equation: TN / (TN+FP)
+
+### Prevalence
+- Prevalence: the amount of positives in the total population.
+- Impacts Specificity/Precision
+- High sensitivity and specificity may not be helpful when prevalence is close to eithrer 0 or 1.
+
+### Precision
+- Also known as Positive Predictive value (PPV)
+- Precision is higher when prevalence is higher
+- Equation: TP / (TP+FP)
+
+### Challenges I faced ⛰️
+- Loading libraries with datasets and understanding how it works in R. Figured it out by reading R documentation.
