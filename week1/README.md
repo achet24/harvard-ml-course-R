@@ -1,4 +1,5 @@
 # Week 1: Categorical Data and Linear Regression
+Notes on what I've learned and any challeges I've faced.
 
 ## Day 1
 ### What I've Learned 📚
