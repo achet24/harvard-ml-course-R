@@ -64,5 +64,34 @@
 - Precision is higher when prevalence is higher
 - Equation: TP / (TP+FP)
 
+#### F1 Score
+- The average of specificity and sensitivity
+- Equation: 2 * [(precision * recall) / (precision + recall)]
+- Values range from 0-1.
+- Values closer to 1 are considered strong models, but must becareful if model is overfitting dataset.
+
 ### Challenges I faced ⛰️
 - Loading libraries with datasets and understanding how it works in R. Figured it out by reading R documentation.
+
+## Day 4
+### What I've Learned 📚
+#### ROC & Precision Recall Curves
+- ROC: Reciever operaating characteristics
+- Plots both sensitivity and specificity on the same graph.
+- Best use for balanced datasets, but also means plots do not depend on prevalence and therefore might not be helpful for imbalanced datasets where there's a large number of true negatives (TN).
+- ROC line on identity line for methods that guess. Especially for binary data the ratio of specificity and sensitivity will be 1:1
+
+#### Loss Function
+- Funciton that provides numerical measure of how well the model works. Lower value = predictions and known outcome are better aligned
+- Used for both categorical and numerical data
+- Squared Loss function: (y_hat - y)^2
+
+#### Mean Squared Error (MSE)
+- Works on N number of observations
+- Equation: 1/N * {Sigma (y_hat - y)^2}
+
+#### Baye's Theorem
+- Equation: P(A|B) = [P(B|A) * P(A)] / P(B)
+
+### Challenges I faced ⛰️
+- Had to learn basics of Baye's Theorem. Will update progress on Baye's Theorem in next week's notes.
