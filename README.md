@@ -6,6 +6,7 @@ Tracking my progress through Harvard's Data Science: Machine Learning course. Sh
 Hi everyone! I'm currently taking Harvard's Data Science: Machine Learning course. I have some understanding of ML in Python and wanted to reinformce my learning and application of ML. This repo is my personal journal documenting what I've learned, some challenges, and future applications.
 
 I've attached files for each week of what I learned and challenges I faced. 
+
 My code is available in the "Machine Learning in R" folder. There, I document how I research the qualities of a dataset, mistakes I had made along the way, and the debugging process.
 
 Below is a table of contents for each topic.
